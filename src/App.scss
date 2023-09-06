@@ -1,0 +1,14 @@
+.app {
+  margin-top: 20px;
+  .col {
+    background: none;
+    h3 {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      min-height: 110px;
+    }
+  }
+}
